@@ -1,0 +1,21 @@
+/* p { font-size: 18px;
+}
+p */
+
+h2 {
+    margin: 2em 0 0 0;
+    color: #263d41;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h2.text {
+    margin: 2em 0 0 0;
+    color: #2e4c3a;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
