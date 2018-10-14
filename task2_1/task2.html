@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Action</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
+</head>
+<body>
+    <div class="main">
+        <form class="form">
+            <h2> Form Action &nbsp </h2> 
+            <span class="form__mainHeadline">_mc4wp_action </span>
+            <br>
+            <br>
+            <p class="form__discr">This field will allow your visitors to choose whether they would like to <br> surbscribe or unsubscribe</p>
+            <br>
+            <label>
+                <p class="form__headItem">Field Label</p>
+                <input type="text" class="form__inSideName" name="field" placeholder="Form Action">
+            </label>
+            <br>
+            <br>
+        <!-- choice type-->
+            <p class="form__headItem"> Choice type </p>
+            <select class="form11" size="1" multiple>
+                <option value="RadioButtons">Radio Buttons</option>
+                <option value="Checkbox">Checkbox</option>
+                <option value="text">Text</option>
+            </select>
+            
+            <br><br>
+        <!-- Choices-->
+            <p class="form__headItem">Choices</p>
+            <div class="form__headItem-main">
+                <label class="form__radio">
+                    <input type="radio" name="form_radio-input" value="r1" id="r1">
+                    <label for="r1" class="form__sub1">Subscribe</label>
+                    <input type="image" src="cross.png" type="reset">
+                    <br><br>
+                    <input type="radio" name="form_radio-input" value="r2" id="r2">
+                    <label for="r2" class="form__sub2">Unsubscribe</label>
+                    <input type="image" src="cross.png" type="reset">
+                    <!--<input type="reset" value="x"> -->
+                    
+                </label>
+            </div>
+
+            <br>
+            <div class="wrap">
+                <input type="checkbox" value="111" id="r3">
+                <label for="r3" class="wrap__text" > &nbsp Wrap in paragraph tags? </label>
+            </div>
+            <br>
+            <button class="buttonAdd" value="Add to form" type="submit" >Add to form</button>
+        </form>
+    </div>
+</body>
+</html>
