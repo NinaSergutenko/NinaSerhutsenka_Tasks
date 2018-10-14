@@ -1,21 +1,71 @@
-/* p { font-size: 18px;
+body {
+    margin: 1em 4em 3em 4em;
+    border-style: double;
+    background: #f4fdf7;
 }
-p */
+
+p {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 100%;
+    margin: 0.5em 0 0 0;
+    color: #646871;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    margin: 0.5em 0 0 0;
+    color: #487179;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    text-transform: uppercase;  
+}
 
 h2 {
-    margin: 2em 0 0 0;
+    margin: 1.5em 0 0 0;
+    padding: 0 0 0 0.4em;
     color: #263d41;
+    text-align: center;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 1em;
+    font-size: 1.4em;
     font-weight: normal;
     text-transform: uppercase;
 }
 
-h2.text {
-    margin: 2em 0 0 0;
-    color: #2e4c3a;
+h3 {
+    margin: 0.5em 0 1.5em 0em;
+    color: #62a93f;
+    text-align: center;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-weight: normal;
-    text-transform: uppercase;
+    text-transform: capitalize; 
+    font-style: italic;
+}
+
+span {
+    font-family: fantasy;
+    vertical-align: super;
+    font-style: oblique;
+}
+span#text4 {
+    font-size: 12px;
+    background: rgb(206, 224, 248);
+    vertical-align: baseline;
+    font-style: italic;
+    font-family: cursive;
+}
+
+a {
+    text-decoration-style: dashed;
+}
+a:link {
+    color: #263d41;
+}
+a:hover {
+       background:#cfe2e6;
+}
+a:visited {
+    color: #78d1e0;
 }
