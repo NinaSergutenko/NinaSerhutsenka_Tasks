@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.logoArea {  
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 191px;
+	width: 99%;
+	position: relative;
+	z-index: 1;
+    overflow: hidden;
+    margin: 10px 0 0 5px;
+}
+
+.logoArea::before{
+	content: '';
+	position: absolute;
+	z-index: -1;
+	width: 104%;
+	height: 131%;
+	background: url('spice-social-gadget-sprite.png');
+    transform: rotate(-5deg);	
+}
+
+.logoArea__logo {
+    display: inline-block;
+	border: 3px solid white;
+	opacity: 0.89;
+}
+
+.logoArea__h1 {
+	height: 100%;
+	font-size: 2rem;
+	line-height: 1.5rem;
+	border: 2px solid #333333;
+	background-color: white;
+	padding: 15px 22px 12px 22px;
+	font-family: 'Mistral';
+	color: #868686;
+}
+
+@font-face {
+    font-family: 'Mistral';
+    src: url('../fonts/mistral.ttf');
+    font-weight: normal;
+    font-style: normal;   
+    }
+    
+.main {
+    position: fixed;
+    width: 99%;
+    
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid #bebbbb;
+    padding: 16px 0px 5px 22px;
+    margin: 5px 0px 5px 10px;
+    border-radius: 2px;    
+}
+
+.content_dark {
+    background: #333333;
+    display: block;
+}
+
+.content__row {
+    display: flex;
+    margin-bottom: 13px;
+}
+
+.content__block {
+    display: flex;
+    align-items: flex-end;
+}
+
+.content__button {
+    border-radius: 4px;
+    color: white;
+    border: none;
+    font-size: 8px;
+    padding: 3px 7px 3px;
+    box-shadow: 0px 1px 1px 0 #333333;
+    margin-right: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.content__button_size_big {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.content__button_size_lit {
+    font-size: 7px;
+}
+
+.content__button_pink {
+    background: #df2499 ;
+}
+
+.content__button_green {
+    background: #9fc323 ;
+}
+
+.content__button_blue {
+    background: #438fe7 ;
+}
+
+.content__button_red {
+    background: #e84246 ;
+}
+
+.content__button_orange {
+    background: #ff7429;
+}
+
+.content__button_yellow {
+    background: #ffbe3b;
+}
+
+
+  
+
+
+
+
