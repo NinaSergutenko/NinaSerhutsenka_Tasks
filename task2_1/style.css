@@ -45,9 +45,10 @@ h2 {
 }
  
 .form__mainHeadline {
-    background: #e3e4e5;
-    font-size: 0.8em;
-    font-weight: bold;
+    background: #ededed;
+    font-size: 0.76em;
+    font-weight: 600;
+    padding: 0 3px 0 6px;
 }
 
 .form__inSideName {
@@ -56,7 +57,7 @@ h2 {
 }
 .form__discr {
     font-size: 0.75em;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 1.4;
 } 
 
